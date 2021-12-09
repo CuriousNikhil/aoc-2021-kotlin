@@ -1,15 +1,16 @@
 
 fun main() {
-    fun part1(input: List<String>): Int {
+    val input = readInput("<file-name>")
+
+    fun part1(): Int {
         return 0
     }
 
-    fun part2(input: List<String>): Int {
+    fun part2(): Int {
       return 0
     }
 
-    val input = readInput("<file-name>")
 
-    println(part1(input))
-    println(part2(input))
+    println(part1())
+    println(part2())
 }
